@@ -15,7 +15,7 @@ class Sessions extends Model {
 
   /**
    * Determines if a session is associated with a logged in user.
-   * @params {Object} session - Session object (requires a user property)
+   * @param {Object} session - Session object (requires a user property)
    * @returns {boolean} A boolean indicating if the session is associated
    * with a user that is logged in.
    */
